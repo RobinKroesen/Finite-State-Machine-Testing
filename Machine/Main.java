@@ -28,7 +28,7 @@ public class Main {
         Node e1 = new Node("e1");
         Node e2 = new Node("e2");
 
-        //routes for self designed machine
+        //added routes for self designed machine
         e0.addRoute('A', e1);
         e1.addRoute('A', e2);
         e1.addRoute('B', e0);
